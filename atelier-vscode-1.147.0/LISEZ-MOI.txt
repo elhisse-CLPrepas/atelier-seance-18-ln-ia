@@ -1,0 +1,10 @@
+ATELIER VS CODE 1.147.0 — ÉDITION ENRICHIE
+
+Ouvrir OUVRIR-ATELIER-VSCODE.html dans un navigateur.
+12 rubriques, 16 vues avec notes, 4 missions, 3 démonstrations, 12 cartes et 8 questions corrigées.
+Le carnet s’exporte en Markdown et JSON. Importer un JSON remplace le carnet après confirmation.
+La présentation se pilote avec les flèches ; Échap revient à la lecture.
+Le bouton Imprimer / PDF ouvre l’impression du navigateur. Aucun PDF préexporté n’est inclus.
+Les fichiers Markdown se lisent dans VS Code avec Ctrl+Maj+V.
+Conserver ce dossier à côté des fichiers sources VSCode-1.147.0.
+Les fonctions VS Code décrites ne sont pas activées par ce support.

@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+
+# Configuration locale et sauvegardes
+.env
+.env.*
+!.env.example
+.tools/
+tmp/
+*.lnk
+__pycache__/
