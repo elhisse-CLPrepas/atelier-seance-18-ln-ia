@@ -1,25 +1,48 @@
-# Messages WhatsApp — Module 05
+# Studio Messages · LN-IA
 
-Ouvrir `index.html` pour rédiger un message, le copier, l’exporter et ouvrir le groupe WhatsApp. Aucun message n’est envoyé automatiquement : dans WhatsApp, vérifier le groupe, coller le texte puis appuyer sur Envoyer.
+Espace de production de messages pour les ateliers du Prof. Abderrahman EL HISSE. Ouvrir `index.html` dans le navigateur, sans installation ni service externe.
 
-## Première utilisation
+## Parcours
 
-1. Ouvrir `index.html` dans le navigateur.
-2. Charger le fichier de configuration `.env.whatsapp` avec le bouton prévu. Il contient le lien du groupe fourni par le formateur. Ce fichier est exclu de Git et des copies de diffusion de l’atelier.
-3. Choisir un modèle ou saisir son texte. Remplacer tous les champs entre crochets.
-4. Copier le message, ouvrir le groupe et envoyer dans WhatsApp après relecture.
-5. Exporter le texte pour conserver la version finale. Noter l’envoi réel dans `journal-envois.csv`.
+1. **Cadrer** : séance, titre, parcours, date, horaire et fuseau, objectif, préparation, liens et signature.
+2. **Composer** : choisir annonce, rappel, ressources/replay ou suivi. Modifier le modèle si nécessaire, puis générer le message. Les champs vides deviennent des mentions à compléter. Une modification des paramètres ne réécrit pas silencieusement votre texte : cliquer de nouveau sur Générer.
+3. **Relire** : aperçu mobile, champs restants, modalités à communiquer, format Markdown et inventaire des liens. L’accès aux liens doit être contrôlé en les ouvrant.
+4. **Partager** : copier, ouvrir le groupe puis coller et envoyer volontairement dans WhatsApp. Consigner ensuite l’envoi réellement effectué dans le journal CSV.
 
-Le bouton « Ouvrir le groupe » utilise le lien d’invitation : WhatsApp peut afficher un aperçu ou demander de rejoindre le groupe selon la session connectée. Ce lien ne permet pas de préremplir et d’envoyer automatiquement un message de groupe.
+Le bouton « Reprendre l’annonce S18 complète » recharge le texte rédigé pour le lundi 23 novembre 2026. Les paramètres ne sont pas modifiés par ce bouton.
 
-## Fichiers et conventions
+## Sauvegarder et réutiliser
 
-- `index.html` : rédaction locale, copie, export texte et accès au groupe.
-- `MODELES-MESSAGES.md` : annonces, rappel, ressources et suivi, réutilisables en S17 à S20.
-- `message-annonce-replay-liens-S17` : message existant conservé ; le charger avec « Importer un message » pour le reprendre.
-- `journal-envois.csv` : suivi manuel des envois réellement effectués.
-- `.env.whatsapp` : configuration locale du groupe, à conserver hors publication.
+- Les paramètres, les modèles, le message et les 20 dernières versions sont mémorisés dans le navigateur si son stockage est disponible.
+- **Conserver cette version** garde un instantané du texte, restaurable depuis la liste des versions.
+- **Sauvegarder l’espace JSON** produit le fichier à conserver sur disque. **Reprendre un espace** recharge ses paramètres, modèles, texte et versions.
+- Le fichier JSON ne contient pas le champ privé du lien de groupe. Les liens présents dans le message ou les paramètres font toutefois partie de la sauvegarde : relire avant de partager.
+- **Nouvel atelier** conserve vos modèles personnalisés, votre parcours et votre signature ; les autres paramètres, le message et les versions sont vidés après confirmation. Exporter d’abord l’atelier précédent.
+- **Exporter en .txt** conserve le message à diffuser. **Imprimer / PDF** prépare une sortie imprimable de l’aperçu ; le navigateur choisit la mise en page finale.
 
-Les brouillons et le lien du groupe sont mémorisés dans le navigateur si son stockage est disponible. Les exports permettent de conserver les textes ailleurs. Le bouton Effacer vide le brouillon ; le bouton Oublier le groupe retire son lien du stockage du navigateur.
+Le stockage des pages `file://` varie selon le navigateur et le chemin. Déplacer le dossier ne transporte pas son stockage : utiliser les exports JSON.
 
-Pour WhatsApp, écrire les URL directement et utiliser `*titre*` pour le gras. Vérifier les dates, horaires et liens avant chaque envoi. Ne pas déclarer une ressource disponible tant que son accès n’a pas été contrôlé. Un texte copié ou exporté reste un brouillon tant qu’il n’a pas été envoyé dans WhatsApp.
+## Répliquer dans un autre atelier
+
+Copier le dossier `03-MESSAGES-WhatsApp` et conserver `../assets/logo-LN-IA.png` au même emplacement relatif. Les fichiers nécessaires sont `index.html`, `studio.css`, `studio-core.js`, `studio.js` et `atelier-data.js`. Aucun CDN, compte ni module complémentaire n’est nécessaire.
+
+Une archive réutilisable `STUDIO-MESSAGES-LNIA.zip` est fournie à la racine de S18. Elle contient l’application et son logo, les références et les messages d’exemple. Extraire entièrement, ouvrir `index.html`, puis choisir Nouvel atelier ou Reprendre un espace JSON.
+
+## Modèles et automatisations
+
+Variables : `{seance}`, `{titre}`, `{cycle}`, `{date}`, `{horaire}`, `{objectif}`, `{preparation}`, `{acces}`, `{supports}`, `{replay}`, `{signature}`.
+
+La date est développée en français. Saisir explicitement le fuseau dans l’horaire. Les modèles sont modifiables dans la bibliothèque. Le modèle de référence Markdown reste disponible dans `MODELES-MESSAGES.md`.
+
+Les automatismes couvrent le remplissage des modèles, le formatage de la date, les contrôles de rédaction, la sauvegarde locale, la conversion des titres/gras/liens Markdown et l’aperçu. Aucun envoi ni aucune planification automatique n’est déclenché. Les contrôles ne prouvent pas l’exactitude des informations.
+
+## Configuration du groupe
+
+Charger la configuration JSON `.env.whatsapp` existante depuis le bouton Configuration privée, ou saisir le lien d’invitation. Il est mémorisé séparément seulement sur demande. Le bouton Oublier retire le lien mémorisé. Garder ce fichier hors Git et des archives de diffusion. Le logo du studio n’est pas joint au texte WhatsApp : joindre manuellement une image dans WhatsApp si souhaité.
+
+## Choix techniques et recherche — 21 novembre 2026
+
+- WhatsApp documente `wa.me` pour ouvrir une conversation avec un numéro et éventuellement un texte prérempli : https://faq.whatsapp.com/5913398998672934 . Cette fonction ne justifie pas un envoi automatique dans le groupe choisi ; ce studio utilise copie et ouverture du groupe.
+- MDN précise que le comportement de `localStorage` avec les URL `file:` n’est pas défini : https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage . Les exports JSON assurent la reprise entre navigateurs et ateliers.
+
+Aucune bibliothèque supplémentaire n’a été ajoutée. Le texte et les imports sont rendus par des nœuds texte, sans exécuter leur contenu HTML. Les imports d’espace sont contrôlés et limités à 2 Mo. La validation du lien de groupe accepte le domaine `chat.whatsapp.com` en HTTPS.

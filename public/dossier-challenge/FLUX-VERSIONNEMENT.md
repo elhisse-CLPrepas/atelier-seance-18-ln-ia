@@ -1,54 +1,28 @@
-# Flux de travail Git — Module 05
+﻿# Flux de versionnement du dossier Challenge dans S18
 
-Ce dépôt commun conserve les productions S17 à S20. Exécuter les commandes ci-dessous depuis `mon-dossier-challenge-Module05`, et non depuis le dossier parent de l’atelier.
+Dans cette copie S18, `mon-dossier-challenge-Module05` est un dossier ordinaire du dépôt `atelier-seance-18-ln-ia`, sans dépôt Git imbriqué. Son historique local antérieur est conservé dans `tmp/sauvegarde-synchronisation-S17-S18/`, hors versionnement.
 
-## 1. Vérifier et récupérer
+Exécuter les commandes depuis la racine de `atelier-seance-18-ln-ia` :
 
 ```powershell
 git status --short --branch
 git remote -v
 git fetch origin
 git pull --ff-only
-```
-
-Commencer avec un dossier de travail propre. Si des modifications sont présentes, les examiner et les enregistrer avant la récupération. Si Git signale une divergence, examiner `git log --oneline --graph --all` et résoudre la situation avant de continuer. Ne pas forcer l’envoi.
-
-## 2. Travailler et contrôler
-
-Modifier les fichiers de la séance concernée. Ouvrir `index.html`, vérifier les liens et tester les fonctions modifiées dans le navigateur. Les réponses du carnet restent dans le navigateur tant que les exports JSON ou Markdown n’ont pas été enregistrés sur disque.
-
-Conserver les exports utiles dans le dossier prévu, notamment `06-PORTFOLIO/`. Compléter les observations avec les résultats réels ; la revue humaine appartient à son auteur.
-
-```powershell
-git status --short
-git diff
+# Modifier et vérifier les sources.
+npm.cmd run build
+npm.cmd run check
 git diff --check
-```
-
-## 3. Enregistrer localement
-
-Ajouter uniquement les fichiers relus. Exemple pour le carnet et la preuve S17 :
-
-```powershell
-git add 06-PORTFOLIO/carnet-essai-S17.md 06-PORTFOLIO/preuve-S17.md
-git diff --cached
-git commit -m "Documenter les essais et les preuves S17"
-```
-
-Adapter les chemins et le message aux changements réellement effectués. Ne pas inclure de mots de passe, de fichiers `.env` ou de données personnelles destinées à rester privées : le dépôt GitHub est public.
-
-## 4. Partager et confirmer
-
-```powershell
+git add -A
+git diff --cached --stat
+git commit -m "Mettre à jour les supports S18"
 git push
-git status --short --branch
-git log -1 --oneline
 ```
 
-Le premier envoi utilise `git push -u origin main` pour établir le suivi de `origin/main`. Les suivants utilisent `git push`. Confirmer la présence du commit sur https://github.com/elhisse-CLPrepas/mon-dossier-challenge-Module05.
+Examiner les fichiers avant de les ajouter. Les exports du navigateur doivent être enregistrés sur disque pour être versionnés. Ne pas inclure de secrets ni de configurations privées.
 
-## Publication et intégration à l’atelier
+Le dépôt de cette copie est https://github.com/elhisse-CLPrepas/atelier-seance-18-ln-ia. Les fichiers `public/dossier-challenge/` et `dist/dossier-challenge/` sont des copies de diffusion régénérées par la construction ; modifier les sources dans `mon-dossier-challenge-Module05`, puis reconstruire.
 
-Le workflow `.github/workflows/deploy.yml` se déclenche manuellement depuis l’onglet Actions, workflow « Publier le dossier Module 05 », puis « Run workflow ». Un push seul ne lance pas cette publication.
+S17 et le dépôt autonome `mon-dossier-challenge-Module05`, lorsqu'il est utilisé séparément, gardent leur propre versionnement. Toute synchronisation entre dossiers reste explicite : comparer les changements, copier les fichiers utiles sans métadonnées `.git`, puis reconstruire et versionner chaque dépôt concerné. Ne pas pousser S18 vers le dépôt du dossier autonome.
 
-L’atelier S17 est un dépôt indépendant. Son dossier `public/dossier-challenge/` est une copie de diffusion. Après une modification du dépôt commun à intégrer au site S17, revenir à la racine de l’atelier, reconstruire avec `npm.cmd run build`, vérifier avec `npm.cmd run check`, puis examiner et versionner les changements dans le dépôt de l’atelier. Son propre push déclenche sa publication Pages.
+L'atelier `atelier-vscode-1.147.0` et ses annexes résident désormais dans le dossier parent `ATELIERS-MODULE-05`, hors du périmètre S18. Ne pas les réintégrer lors des synchronisations. Ne pas forcer les push en cas de divergence.
