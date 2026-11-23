@@ -1,5 +1,13 @@
 # Atelier S18 · De mes sources à mon pack mini-site
 
+## Version en ligne — GitHub Pages
+
+Adresse : https://elhisse-clprepas.github.io/atelier-seance-18-ln-ia/
+
+Le workflow `.github/workflows/deploy-pages.yml` reconstruit et contrôle le site à chaque push sur `main`, puis publie `dist` sur GitHub Pages. Il peut aussi être relancé depuis l’onglet Actions. Les ZIP du dossier Challenge, du trio de production, des exemples et du livrable Déclic Web sont inclus dans le site publié.
+
+Accès directs : [Dossier Challenge](https://elhisse-clprepas.github.io/atelier-seance-18-ln-ia/dossier-challenge/), [Déclic Web](https://elhisse-clprepas.github.io/atelier-seance-18-ln-ia/livrables/mini-site-declic-web/) et [pack produit](https://elhisse-clprepas.github.io/atelier-seance-18-ln-ia/livrables/mini-site-declic-web.zip). Les versions locales hors ligne restent disponibles. La publication ne remplace pas la revue pédagogique des productions.
+
 ## Livrable Déclic Web intégré
 
 Dans **Exemples & sources**, choisir **Déclic Web** puis **Ouvrir le mini-site produit**. Le dossier source à remettre à l’agent et le pack produit sont deux téléchargements distincts. Le site livré comporte six sections, une fiche d’exploration HTML/CSS/JS, une affiche agrandissable, un bouton afficher/masquer et un quiz corrigé.
