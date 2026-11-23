@@ -46,3 +46,9 @@ Le remote `origin` a été vérifié : `https://github.com/elhisse-CLPrepas/atel
 Le carnet S18 simplifié, les trois documents de production, les quatre dossiers fictifs enrichis et leurs affiches sont versionnés avec leurs sources de génération. Déclic Web conserve son dossier de démarrage et sa production dans `declic-web-sources-S18/`. La construction copie la V1 et son ZIP vers `public/livrables/` puis `dist/livrables/` ; les empreintes contrôlent leur identité. Les ressources donnent accès au livrable, à ses contrôles et à la nouvelle affiche pratique S18.
 
 La synchronisation ne modifie pas S17, l’atelier VS Code déplacé ou un dépôt distant du dossier Challenge autonome. Les profils des navigateurs de test, captures, sauvegardes, dépendances et fichiers privés restent exclus par `.gitignore`. Les états de revue humaine restent « À examiner » tant que le pilote ne les a pas renseignés.
+
+## Productions S18 partagées vers S17–S20 — 23 novembre 2026
+
+À la demande du pilote, le dossier Challenge de S18 a été enrichi de 26 fichiers de production : prompts et sources, mini-site Déclic Web, ZIP, journal, empreintes, contenu de démonstration, rapport et relais. Le manifeste `00-SOURCES/S18/SYNCHRONISATION-S18.json` en décrit les empreintes exactes. L'accueil et le portfolio affichent désormais ces pièces sans remplir les observations personnelles.
+
+Le script `tools/sync-challenge-s18.py` a synchronisé ce périmètre dans les dossiers Challenge S17/S19/S20 et leurs copies de diffusion ; le dossier S20 a été créé. Les archives partagées ont été actualisées. Une nouvelle simulation retourne zéro écriture. Les configurations Git et les changements préexistants restent conservés. S17 garde son dépôt autonome ; S19 et S20 restent des copies sans dépôt Git. Les éventuels commits et push de ces autres emplacements sont distincts du versionnement S18.

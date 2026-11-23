@@ -1,21 +1,19 @@
 # Mon dossier Challenge — Module 05
 
-Dépôt commun aux ateliers S17 à S20 de LN-IA. Il contient les productions, le suivi, la démonstration de compréhension du Web et les modèles du portfolio.
+Copie de travail S18 du parcours S17 à S20. Ouvrir index.html puis « Productions S18 » pour consulter le mini-site Déclic Web produit, son ZIP, ses sources et le rapport de contrôle.
 
-Ouvrez `index.html` pour retrouver le mini-site et le carnet d’essai. Consultez `GUIDE-DOSSIER.md` pour le parcours pédagogique et les exports.
+## Ce qui est produit en S18
 
-Consultez [le flux de versionnement](FLUX-VERSIONNEMENT.md) pour récupérer, contrôler, enregistrer et partager les productions, puis les intégrer à l’atelier.
+- 02-PROMPTS/S18/ : instructions, prompt maître, prompt personnalisé, AGENT.md et entrées de Déclic Web.
+- 04-WEB/livrables-S18/ : dossier du site, archive, journal et empreintes de livraison.
+- 01-SUIVI/productions-S18.md : ordre de consultation et inventaire.
+- 06-PORTFOLIO/rapport-production-S18-declic-web.md : réalisation de l’agent, distincte des preuves personnelles.
+- 06-PORTFOLIO/relais-production-S18-S19.md : reprise S19 puis S20.
 
-## Versionnement indépendant
+Le mini-site est un exemple fictif produit. Les observations personnelles, les preuves des participants et la revue du pilote restent à compléter. Les modèles des quatre séances sont conservés.
 
-Ce dossier possède son propre dépôt Git et son remote :
+## Périmètre Git et synchronisation
 
-```text
-https://github.com/elhisse-CLPrepas/mon-dossier-challenge-Module05.git
-```
+Dans S18, ce dossier est versionné par le dépôt parent atelier-seance-18-ln-ia, sans dépôt imbriqué. Dans S17, le dossier homonyme possède un dépôt autonome. Les copies S19/S20 ne sont pas automatiquement des dépôts Git. Lire FLUX-VERSIONNEMENT.md et le contexte local avant toute commande.
 
-Il peut être installé dans un atelier sans appartenir au dépôt Git de cet atelier. Le parent doit ignorer `/mon-dossier-challenge-Module05/`. Chaque production est enregistrée ici avec son commit.
-
-Après le premier envoi et l’établissement du suivi distant, récupérer le travail partagé avec `git pull --ff-only`, depuis un dossier de travail propre. Enregistrer les modifications avec `git add`, examiner `git diff --cached`, puis `git commit`. Le partage sur GitHub se fait par un `git push` explicite.
-
-La génération d’un atelier ne doit pas réinitialiser les carnets ou les preuves de ce dépôt. Les résultats des essais et la revue humaine sont renseignés par leurs auteurs.
+Depuis la racine de S18, `python tools/sync-challenge-s18.py --plan` prépare un rapport ; `--execute` applique explicitement les fichiers S18 aux autres dossiers en conservant leurs contenus et leurs configurations Git. Aucun commit ni push n’est effectué par ce script. Un manifeste SHA-256 dans 00-SOURCES/S18 précise les fichiers synchronisés. La construction S18 met à jour public/dossier-challenge, dist/dossier-challenge et le ZIP de diffusion.

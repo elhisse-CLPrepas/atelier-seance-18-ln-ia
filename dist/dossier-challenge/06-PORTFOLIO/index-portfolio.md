@@ -12,3 +12,15 @@ Les fichiers ci-dessous sont des modèles vierges. Leur présence ne signifie pa
 [Pièce cible](../04-WEB/pieces/fiche-cible.html) · [Bilan du module](preuves-module-05.md) · [Relais S21](relais-S21.md)
 
 Conservez vos fichiers réels s'ils existent déjà. Renseignez la date, le lecteur et l'observation avant toute décision de validation.
+
+<!-- PRODUCTIONS-S18:START -->
+## Production S18 disponible — Déclic Web
+
+Les modèles personnels du tableau précédent sont conservés. Cette entrée décrit la démonstration produite par l’agent ; elle ne remplit pas vos observations.
+
+| Production | Pièces et essais | État |
+| --- | --- | --- |
+| [Mini-site S18](../04-WEB/livrables-S18/mini-site-declic-web/index.html) · [ZIP](../04-WEB/livrables-S18/mini-site-declic-web.zip) | [Rapport de production](rapport-production-S18-declic-web.md) · [Contrôles](../04-WEB/livrables-S18/mini-site-declic-web/CONTROLE.md) | PRODUIT · REVUE HUMAINE À EXAMINER |
+
+[Prompt et méthode](../02-PROMPTS/S18/LIRE-MOI.md) · [Sources et transformations](../04-WEB/livrables-S18/mini-site-declic-web/SOURCES.md) · [Relais S19/S20](relais-production-S18-S19.md)
+<!-- PRODUCTIONS-S18:END -->

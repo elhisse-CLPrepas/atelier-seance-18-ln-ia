@@ -16,3 +16,21 @@ dist/livrables/** -text whitespace=cr-at-eol
 
 # Markdown hard breaks use two spaces; delivery manifests also preserve CRLF.
 *.md whitespace=cr-at-eol,-blank-at-eol
+
+# Byte-identical copies of the S18 delivery inside the shared Challenge dossier.
+public/dossier-challenge/04-WEB/livrables-S18/** -text whitespace=cr-at-eol
+dist/dossier-challenge/04-WEB/livrables-S18/** -text whitespace=cr-at-eol
+
+# Keep the synchronized manifest payload byte-identical in diffusion copies.
+public/dossier-challenge/00-SOURCES/S18/** -text
+public/dossier-challenge/02-PROMPTS/S18/** -text
+public/dossier-challenge/01-SUIVI/productions-S18.md -text
+public/dossier-challenge/04-WEB/contenu-page-projet-S18-declic-web.md -text
+public/dossier-challenge/06-PORTFOLIO/rapport-production-S18-declic-web.md -text
+public/dossier-challenge/06-PORTFOLIO/relais-production-S18-S19.md -text
+dist/dossier-challenge/00-SOURCES/S18/** -text
+dist/dossier-challenge/02-PROMPTS/S18/** -text
+dist/dossier-challenge/01-SUIVI/productions-S18.md -text
+dist/dossier-challenge/04-WEB/contenu-page-projet-S18-declic-web.md -text
+dist/dossier-challenge/06-PORTFOLIO/rapport-production-S18-declic-web.md -text
+dist/dossier-challenge/06-PORTFOLIO/relais-production-S18-S19.md -text
