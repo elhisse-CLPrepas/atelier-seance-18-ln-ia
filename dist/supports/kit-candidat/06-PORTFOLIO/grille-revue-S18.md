@@ -1,12 +1,12 @@
 # Revue du pilote S18
 
-- [ ] Expliquer HTML, CSS et JavaScript à partir du support S17.
-- [ ] Identifier le projet, le public, le besoin et la source.
-- [ ] Rédiger les six sections et conserver une action unique avec sa destination.
-- [ ] Personnaliser le type, les pages, le style et les interactions du mini-site.
-- [ ] Exporter et relire le prompt maître ; identifier l’agent utilisé ou l’essai encore à faire.
-- [ ] Rouvrir contenu et preuve ; consigner les résultats réels du binôme et les essais du pack disponibles.
-- [ ] Conserver les pièces dans le portfolio et préparer le relais S19 avec une revue datée.
+- [ ] Expliquer les rôles de HTML, CSS, JavaScript et du navigateur à partir de S17.
+- [ ] Identifier le projet, le public et les sources : guide, affiche ou documents.
+- [ ] Préparer un contenu fidèle et une action principale vers une cible réelle.
+- [ ] Conserver les trois documents, le prompt personnalisé et les ressources fournies à l’agent.
+- [ ] Retrouver le dossier du site, son ZIP, README.md, SOURCES.md et CONTROLE.md.
+- [ ] Extraire ailleurs et essayer ouverture, images, liens, documents, interactions, clavier et largeur mobile ; noter les résultats réels.
+- [ ] Conserver la preuve personnelle et préparer les corrections et essais restants pour S19.
 
 Pilote :
 

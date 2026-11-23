@@ -1,0 +1,174 @@
+[
+  {
+    "id": "declic-web",
+    "title": "Déclic Web",
+    "sector": "Formation",
+    "public": "Participants débutants du Module 05",
+    "need": "Comprendre le rôle de HTML, CSS, JavaScript et du navigateur",
+    "source": "Le support propose une page locale : HTML organise le contenu, CSS règle la présentation et JavaScript affiche une explication. Aucun compte ni serveur n’est requis.",
+    "before": "Tout maîtriser sur le Web en une séance.",
+    "after": "Observer les rôles de trois fichiers dans une page locale.",
+    "benefit": "Voir une interaction et retrouver le fichier qui la produit.",
+    "action": "Explorer les trois fichiers",
+    "target": "fiche-web",
+    "titlePage": "Déclic Web",
+    "hookA": "Tout maîtriser sur le Web en une séance.",
+    "hookB": "Observer les rôles de trois fichiers dans une page locale.",
+    "problem": "Comprendre le rôle de HTML, CSS, JavaScript et du navigateur",
+    "other": "Une solution complète, sans limites et sans vérification.",
+    "why": "La formulation corrigée décrit uniquement les éléments présents dans la source. Les résultats ou services non documentés restent exclus.",
+    "items": [
+      [
+        "HTML",
+        "Repérer titre, paragraphes, image et lien dans index.html."
+      ],
+      [
+        "CSS",
+        "Changer une couleur dans css/styles.css et observer la présentation."
+      ],
+      [
+        "JavaScript",
+        "Déclencher un bouton qui affiche puis masque une explication."
+      ]
+    ],
+    "siteType": "pédagogique",
+    "visualStyle": "Bleu nuit, or et blanc ; grands caractères et encadrés lisibles",
+    "interactions": "Bouton Afficher une explication ; navigation par ancres ; mini-quiz corrigé de trois questions",
+    "pages": "index.html avec six sections ; une fiche locale de destination",
+    "assets": "entrees/affiche.svg (affiche dédiée, fictive) ; entrees/guide-source.md ; entrees/fiche-web.html ; documents du trio de production. Aucun visuel externe obligatoire.",
+    "technical": "HTML, CSS et JavaScript séparés ; chemins relatifs ; fonctionnement hors ligne ; sans installation",
+    "packName": "mini-site-declic-web",
+    "sourceGuide": "Le navigateur lit les fichiers et affiche la page. Commencer par ouvrir index.html, repérer les trois fichiers, puis faire une modification à la fois. Comparer avant et après. Le support ne traite ni serveur, ni API, ni mise en ligne automatique.",
+    "sourceLimits": "Ce parcours est une initiation ; il ne promet pas la maîtrise complète du développement web.",
+    "poster": "supports/exemples/declic-web/entrees/affiche.svg"
+  },
+  {
+    "id": "jardin-partage",
+    "title": "Jardin partagé",
+    "sector": "Association",
+    "public": "Habitants qui découvrent un jardin associatif",
+    "need": "Comprendre les activités avant de consulter une fiche de participation",
+    "source": "La fiche fictive décrit trois activités : semis, entretien et compost. Les horaires et modalités de participation sont à compléter ; aucune inscription en ligne n’est disponible.",
+    "before": "Votre place au jardin est garantie dès maintenant.",
+    "after": "Découvrir les trois activités présentées par le jardin.",
+    "benefit": "Choisir une activité à propos de laquelle demander des précisions.",
+    "action": "Lire la fiche de participation",
+    "target": "fiche-jardin",
+    "titlePage": "Jardin partagé",
+    "hookA": "Votre place au jardin est garantie dès maintenant.",
+    "hookB": "Découvrir les trois activités présentées par le jardin.",
+    "problem": "Comprendre les activités avant de consulter une fiche de participation",
+    "other": "Une solution complète, sans limites et sans vérification.",
+    "why": "La formulation corrigée décrit uniquement les éléments présents dans la source. Les résultats ou services non documentés restent exclus.",
+    "items": [
+      [
+        "Semis",
+        "Observer une graine, préparer un contenant et consigner la date du semis."
+      ],
+      [
+        "Entretien",
+        "Observer le sol et les végétaux ; demander les consignes avant toute intervention."
+      ],
+      [
+        "Compost",
+        "Distinguer les matières proposées dans la fiche et demander conseil en cas de doute."
+      ]
+    ],
+    "siteType": "associatif",
+    "visualStyle": "Vert profond, blanc et accents terre ; photographies fournies uniquement",
+    "interactions": "Filtres par activité ; accordéon de questions ; bouton ouvrant la fiche locale",
+    "pages": "index.html avec six sections ; une fiche locale de destination",
+    "assets": "entrees/affiche.svg (affiche dédiée, fictive) ; entrees/guide-source.md ; entrees/fiche-jardin.html ; documents du trio de production. Aucun visuel externe obligatoire.",
+    "technical": "HTML, CSS et JavaScript séparés ; chemins relatifs ; fonctionnement hors ligne ; sans installation",
+    "packName": "mini-site-jardin-partage",
+    "sourceGuide": "Cette association et ses activités sont fictives. La fiche permet de choisir un sujet de découverte parmi semis, entretien et compost. Une participation exige de demander les modalités à un responsable ; aucun créneau, adresse ou contact réel ne sont fournis.",
+    "sourceLimits": "Horaires, adresse, contact et modalités restent à compléter. Ni inscription ni place garantie.",
+    "poster": "supports/exemples/jardin-partage/entrees/affiche.svg"
+  },
+  {
+    "id": "atelier-argile",
+    "title": "Atelier Terre Claire",
+    "sector": "Artisanat",
+    "public": "Personnes intéressées par la céramique artisanale",
+    "need": "Découvrir des réalisations et leurs caractéristiques",
+    "source": "Le catalogue fictif présente trois pièces en céramique : tasse, bol et vase. Les dimensions sont documentées ; prix et disponibilités restent à compléter. Aucun paiement ni commande ne sont proposés.",
+    "before": "Commandez toutes les pièces en stock avec livraison demain.",
+    "after": "Consulter les caractéristiques de trois pièces en céramique.",
+    "benefit": "Comparer les dimensions avant de préparer une question.",
+    "action": "Consulter le catalogue",
+    "target": "catalogue-ceramique",
+    "titlePage": "Atelier Terre Claire",
+    "hookA": "Commandez toutes les pièces en stock avec livraison demain.",
+    "hookB": "Consulter les caractéristiques de trois pièces en céramique.",
+    "problem": "Découvrir des réalisations et leurs caractéristiques",
+    "other": "Une solution complète, sans limites et sans vérification.",
+    "why": "La formulation corrigée décrit uniquement les éléments présents dans la source. Les résultats ou services non documentés restent exclus.",
+    "items": [
+      [
+        "Tasse — modèle fictif",
+        "Hauteur 8 cm ; diamètre 7 cm. Dimensions pédagogiques inventées."
+      ],
+      [
+        "Bol — modèle fictif",
+        "Hauteur 6 cm ; diamètre 14 cm. Dimensions pédagogiques inventées."
+      ],
+      [
+        "Vase — modèle fictif",
+        "Hauteur 20 cm ; diamètre 9 cm. Dimensions pédagogiques inventées."
+      ]
+    ],
+    "siteType": "vitrine artisanale",
+    "visualStyle": "Terre cuite, ivoire et anthracite ; galerie de cartes sobres",
+    "interactions": "Filtre tasse, bol, vase ; détail accessible ; aucune commande simulée",
+    "pages": "index.html avec six sections ; une fiche locale de destination",
+    "assets": "entrees/affiche.svg (affiche dédiée, fictive) ; entrees/guide-source.md ; entrees/catalogue-ceramique.html ; documents du trio de production. Aucun visuel externe obligatoire.",
+    "technical": "HTML, CSS et JavaScript séparés ; chemins relatifs ; fonctionnement hors ligne ; sans installation",
+    "packName": "mini-site-atelier-argile",
+    "sourceGuide": "Le catalogue pédagogique décrit trois pièces fictives et leurs dimensions. Ces valeurs servent uniquement à entraîner la comparaison et la mise en page de fiches. La matière est présentée comme céramique ; aucune propriété alimentaire, certification ou méthode de fabrication spécifique ne doit être déduite.",
+    "sourceLimits": "Prix, stock, commande, paiement et livraison ne sont pas documentés.",
+    "poster": "supports/exemples/atelier-argile/entrees/affiche.svg"
+  },
+  {
+    "id": "portfolio-nadia",
+    "title": "Portfolio Nadia",
+    "sector": "Portfolio",
+    "public": "Structures recherchant une présentation de travaux graphiques",
+    "need": "Examiner des travaux avant un échange",
+    "source": "Le dossier fictif présente une affiche, une identité visuelle et une maquette web. Chaque travail indique son contexte et le rôle de la créatrice. Les résultats commerciaux ne sont pas mesurés.",
+    "before": "Des créations qui doublent vos ventes.",
+    "after": "Découvrir trois travaux graphiques et leur contexte.",
+    "benefit": "Identifier un travail pertinent pour préparer un échange.",
+    "action": "Voir les réalisations",
+    "target": "realisations-nadia",
+    "titlePage": "Portfolio Nadia",
+    "hookA": "Des créations qui doublent vos ventes.",
+    "hookB": "Découvrir trois travaux graphiques et leur contexte.",
+    "problem": "Examiner des travaux avant un échange",
+    "other": "Une solution complète, sans limites et sans vérification.",
+    "why": "La formulation corrigée décrit uniquement les éléments présents dans la source. Les résultats ou services non documentés restent exclus.",
+    "items": [
+      [
+        "Affiche culturelle fictive",
+        "Projet personnel : organiser titre, informations et visuel dans une composition lisible."
+      ],
+      [
+        "Identité associative fictive",
+        "Projet personnel : explorer une palette et une hiérarchie typographique."
+      ],
+      [
+        "Mise en page éditoriale fictive",
+        "Projet personnel : structurer une double page et ses légendes."
+      ]
+    ],
+    "siteType": "portfolio",
+    "visualStyle": "Anthracite, blanc et violet ; priorité aux visuels et aux légendes",
+    "interactions": "Filtres par type de projet ; fiches détaillées ; navigation clavier",
+    "pages": "index.html avec six sections ; une fiche locale de destination",
+    "assets": "entrees/affiche.svg (affiche dédiée, fictive) ; entrees/guide-source.md ; entrees/realisations-nadia.html ; documents du trio de production. Aucun visuel externe obligatoire.",
+    "technical": "HTML, CSS et JavaScript séparés ; chemins relatifs ; fonctionnement hors ligne ; sans installation",
+    "packName": "mini-site-portfolio-nadia",
+    "sourceGuide": "Nadia est un personnage fictif. Les trois projets sont des exercices personnels, sans client réel, prix ou résultat commercial. Les visuels absents restent signalés ; l’affiche fournie présente le portfolio et ne constitue pas la preuve de réalisation des trois projets.",
+    "sourceLimits": "Ne pas inventer de client, diplôme, avis, contrat, coordonnées ou disponibilité.",
+    "poster": "supports/exemples/portfolio-nadia/entrees/affiche.svg"
+  }
+]

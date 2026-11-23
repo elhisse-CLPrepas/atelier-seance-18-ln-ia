@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 import {Script} from 'node:vm';
 import {fileURLToPath} from 'node:url';
 import {sections,resources,projectFields,proofFields,reviewFields,miniSiteFields,rubricGuides} from '../src/content.js';
@@ -28,4 +29,12 @@ for(const name of['OUVRIR-SEANCE-18.html','PROJECTION-SEANCE-18.html']){
  for(const[,attrs,code]of scripts){assert(!attrs.includes('src='));new Script(code,{filename:name})}
  assert(h.includes('href="./dist/dossier-challenge/index.html"'),name+': dossier Challenge accessible');
 }
-console.log('S18 contrôlé : 11 rubriques, 22 vues, 4 cas, 12 cartes, 8 questions, 24 explications, 7 critères, ressources et exports distincts.');
+const delivery=path.join(root,'declic-web-sources-S18/livrables');
+const manifest=JSON.parse(await fs.readFile(path.join(delivery,'LIVRAISON-SHA256.json'),'utf8'));
+const sha=buffer=>createHash('sha256').update(buffer).digest('hex');
+for(const [name,expected] of Object.entries(manifest.fichiers)){
+ assert.equal(sha(await fs.readFile(path.join(delivery,'mini-site-declic-web',name))),expected,name+': source livrée');
+ assert.equal(sha(await fs.readFile(path.join(root,'public/livrables/mini-site-declic-web',name))),expected,name+': copie diffusée');
+}
+assert.equal(sha(await fs.readFile(path.join(root,'public/livrables/mini-site-declic-web.zip'))),manifest.archive,'ZIP diffusé identique');
+console.log('S18 contrôlé : carnet, ressources, exports et copies du livrable Déclic Web conformes ; 22 vues, 4 cas, 12 cartes et 8 questions.');

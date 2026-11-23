@@ -14,7 +14,7 @@ Statut de revue : À COMPLÉTER
 - [Preuve S18](preuve-S18.md)
 - [Index](index-portfolio.md)
 
-Source S16 : À compléter
+Sources : À compléter
 Action conservée : À compléter
 Cible à joindre : À compléter
 État de la cible : À fournir

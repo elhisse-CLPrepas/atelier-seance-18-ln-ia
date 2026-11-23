@@ -40,3 +40,9 @@ L'atelier VS Code `atelier-vscode-1.147.0`, son ZIP, son lanceur et les cinq doc
 Le dépôt S18 conserve les supports de séance et sa copie du dossier Challenge. Le guide `mon-dossier-challenge-Module05/FLUX-VERSIONNEMENT.md` décrit désormais ce périmètre. Les dossiers S17 et VS Code restent séparés. La construction synchronise les sources Challenge de S18 vers `public/dossier-challenge/` puis `dist/dossier-challenge/`, sans modifier S17 et sans copier de métadonnées Git. Les sauvegardes et les configurations privées restent exclues.
 
 Le remote `origin` a été vérifié : `https://github.com/elhisse-CLPrepas/atelier-seance-18-ln-ia.git`. Le dépôt distant était vide avant le premier envoi. Le suivi de `main` est établi par `git push -u origin main` ; les envois suivants utilisent `git push`.
+
+## Finalisation du 23 novembre 2026
+
+Le carnet S18 simplifié, les trois documents de production, les quatre dossiers fictifs enrichis et leurs affiches sont versionnés avec leurs sources de génération. Déclic Web conserve son dossier de démarrage et sa production dans `declic-web-sources-S18/`. La construction copie la V1 et son ZIP vers `public/livrables/` puis `dist/livrables/` ; les empreintes contrôlent leur identité. Les ressources donnent accès au livrable, à ses contrôles et à la nouvelle affiche pratique S18.
+
+La synchronisation ne modifie pas S17, l’atelier VS Code déplacé ou un dépôt distant du dossier Challenge autonome. Les profils des navigateurs de test, captures, sauvegardes, dépendances et fichiers privés restent exclus par `.gitignore`. Les états de revue humaine restent « À examiner » tant que le pilote ne les a pas renseignés.

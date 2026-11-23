@@ -30,15 +30,20 @@ Choisir une activité à propos de laquelle demander des précisions.
 
 Libellé : Lire la fiche de participation
 Cible : ../../03-CAS/fiche-jardin.html
-État de la cible : À fournir
+État de la cible : Disponible, à tester
 
 [Lire la fiche de participation](../../03-CAS/fiche-jardin.html)
 
 ## Repères éditoriaux pour préparer S19
 
-Source S16, chemin et version : Démonstration S18 : Jardin partagé ; support S17 HTML/CSS/JS
+Sources, fichiers et versions : entrees/guide-source.md ; entrees/affiche.svg ; entrees/fiche-jardin.html — dossier fictif Jardin partagé
 
 > La fiche fictive décrit trois activités : semis, entretien et compost. Les horaires et modalités de participation sont à compléter ; aucune inscription en ligne n’est disponible.
+> Cette association et ses activités sont fictives. La fiche permet de choisir un sujet de découverte parmi semis, entretien et compost. Une participation exige de demander les modalités à un responsable ; aucun créneau, adresse ou contact réel ne sont fournis.
+> Semis : Observer une graine, préparer un contenant et consigner la date du semis.
+> Entretien : Observer le sol et les végétaux ; demander les consignes avant toute intervention.
+> Compost : Distinguer les matières proposées dans la fiche et demander conseil en cas de doute.
+> Horaires, adresse, contact et modalités restent à compléter. Ni inscription ni place garantie.
 
 Appui de la promesse et du bénéfice : La fiche fictive décrit trois activités : semis, entretien et compost. Les horaires et modalités de participation sont à compléter ; aucune inscription en ligne n’est disponible.
 

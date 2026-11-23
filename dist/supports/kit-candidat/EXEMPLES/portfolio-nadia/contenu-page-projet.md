@@ -30,15 +30,20 @@ Identifier un travail pertinent pour préparer un échange.
 
 Libellé : Voir les réalisations
 Cible : ../../03-CAS/realisations-nadia.html
-État de la cible : À fournir
+État de la cible : Disponible, à tester
 
 [Voir les réalisations](../../03-CAS/realisations-nadia.html)
 
 ## Repères éditoriaux pour préparer S19
 
-Source S16, chemin et version : Démonstration S18 : Portfolio Nadia ; support S17 HTML/CSS/JS
+Sources, fichiers et versions : entrees/guide-source.md ; entrees/affiche.svg ; entrees/realisations-nadia.html — dossier fictif Portfolio Nadia
 
 > Le dossier fictif présente une affiche, une identité visuelle et une maquette web. Chaque travail indique son contexte et le rôle de la créatrice. Les résultats commerciaux ne sont pas mesurés.
+> Nadia est un personnage fictif. Les trois projets sont des exercices personnels, sans client réel, prix ou résultat commercial. Les visuels absents restent signalés ; l’affiche fournie présente le portfolio et ne constitue pas la preuve de réalisation des trois projets.
+> Affiche culturelle fictive : Projet personnel : organiser titre, informations et visuel dans une composition lisible.
+> Identité associative fictive : Projet personnel : explorer une palette et une hiérarchie typographique.
+> Mise en page éditoriale fictive : Projet personnel : structurer une double page et ses légendes.
+> Ne pas inventer de client, diplôme, avis, contrat, coordonnées ou disponibilité.
 
 Appui de la promesse et du bénéfice : Le dossier fictif présente une affiche, une identité visuelle et une maquette web. Chaque travail indique son contexte et le rôle de la créatrice. Les résultats commerciaux ne sont pas mesurés.
 

@@ -36,7 +36,7 @@ Lien à compléter.
 
 ## Repères éditoriaux pour préparer S19
 
-Source S16, chemin et version : À compléter
+Sources, fichiers et versions : À compléter
 
 > À compléter
 
@@ -44,10 +44,10 @@ Appui de la promesse et du bénéfice : À compléter
 
 Plan S17 repris :
 
-> À compléter
+> Titre, accroche, besoin, proposition, bénéfice et action principale
 
-Mission : À compléter
-Contraintes : À compléter
+Mission : Produire un mini-site et son ZIP à partir des sources fournies
+Contraintes : Conserver les limites des sources ; signaler les informations absentes
 
 - [Plan S17](structure-page-projet.md)
 - [Preuve S18](../06-PORTFOLIO/preuve-S18.md)

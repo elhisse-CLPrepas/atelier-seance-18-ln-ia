@@ -1,0 +1,39 @@
+Créer une affiche événementielle française premium LN-IA, verticale haute définition, composition lisible pour WhatsApp. Référence jointe : logo officiel LN-IA, à intégrer fidèlement en haut sur un cartouche blanc, sans réinventer son symbole. Palette bleu nuit profond, blanc lumineux et or métallique. Typographie sans empattement nette, hiérarchie forte et marges généreuses. Grand éclair 3D doré, brillant et sculptural, comme un flash d'énergie, avec quelques étincelles élégantes ; il accompagne le slogan sans gêner la lecture. Objets 3D secondaires discrets : guide, affiche, fenêtre de mini-site et pack ZIP, illustrant les sources transformées en livrable. PAS de personnage ni de visage.
+
+Le message doit être au PREMIER PLAN, extrêmement lisible, plus grand que toutes les informations logistiques :
+"ATELIER PRATIQUE S18"
+"RIEN NE REMPLACE"
+"LA PRATIQUE !"
+
+Ensuite présenter clairement le thème :
+"Séance 18"
+"De vos sources à un pack mini-site"
+"Objectif : transformer vos guides, affiches et documents en un mini-site HTML/CSS/JS et son pack ZIP."
+
+Bandeau de date contrasté :
+"LUNDI 23 NOVEMBRE 2026"
+"19h00 GMT · EN DIRECT SUR ZOOM"
+Ne pas convertir GMT en autre fuseau.
+
+Texte d'invitation, secondaire mais lisible :
+"Bonjour à toutes et à tous,"
+"Je vous invite à une réunion Zoom programmée."
+"Sujet : Séance-18_Module-05_Challenge-100JOURS"
+"Chaque lundi : atelier pratique pour produire avec IA"
+
+En bas, panneau Zoom structuré, lettres et chiffres exacts, sans QR code inventé :
+"PARTICIPER À LA RÉUNION ZOOM"
+"https://us06web.zoom.us/j/87338445270"
+"?pwd=DytHYD2a8KkaTst2qokt8Sjy4cXH3p.1"
+Les deux lignes URL se suivent sans ajouter d'espace ni modifier les caractères ; petit texte soigneusement composé.
+"ID de réunion : 873 3844 5270"
+"Code secret : 907973"
+
+Pied de page :
+"MODULE 05"
+"De la page Web à la mini-application déployée"
+"Challenge 100 Jours · LN-IA"
+
+Rendu final élégant et professionnel, haute qualité de composition et orthographe française exacte. Tout le texte demandé est intégré à l'image ; accent maximal sur le slogan et l'objectif, logistique dans un panneau inférieur ordonné. Ne pas ajouter de prix, date, horaire, contact ou statut non fournis.
+
+Correction finale : conserver intégralement la composition et rectifier la deuxième ligne URL pour lire exactement ?pwd=DytHYD2a8KkaTst2qokt8Sjy4cXH3p.1 (K majuscule, puis k minuscule, puis a). Génération et retouche par l’outil intégré image_gen.

@@ -1,4 +1,28 @@
-# Atelier S18 · Un contenu clair, un appui précis
+# Atelier S18 · De mes sources à mon pack mini-site
+
+## Livrable Déclic Web intégré
+
+Dans **Exemples & sources**, choisir **Déclic Web** puis **Ouvrir le mini-site produit**. Le dossier source à remettre à l’agent et le pack produit sont deux téléchargements distincts. Le site livré comporte six sections, une fiche d’exploration HTML/CSS/JS, une affiche agrandissable, un bouton afficher/masquer et un quiz corrigé.
+
+La production d’origine reste dans `declic-web-sources-S18/livrables/`. La construction copie le site et son ZIP dans `public/livrables/`, puis Vite les diffuse dans `dist/livrables/`. Les empreintes de `LIVRAISON-SHA256.json` servent à vérifier que la copie publiée correspond aux fichiers contrôlés. Le journal, README.md, SOURCES.md et CONTROLE.md expliquent la réalisation et ses limites. La revue du pilote et les observations personnelles restent à compléter.
+
+La nouvelle affiche pratique S18 se télécharge dans **Ressources** ; son PNG original et son prompt restent dans `output/imagegen/`. Les dossiers séparés S17 et VS Code conservent leur périmètre.
+
+## Carnet d’essai — édition du 23 novembre 2026
+
+Ouvrir `OUVRIR-SEANCE-18.html`, puis **Mon carnet d’essai**. Le parcours principal comporte six accès : Démarrer, Exemples & sources, Mon carnet d’essai, Mes 3 documents, Essayer mon pack et Conserver & reprendre. Projection, méthode, cartes, quiz et ressources restent regroupés sous **Animer & réviser**.
+
+Le carnet suit trois étapes : projet et sources, contenu du mini-site, prompt et pack. Les choix techniques et la comparaison de deux accroches sont facultatifs. Après production, le participant renseigne son essai réel et exporte sa preuve ; la revue du pilote reste distincte.
+
+Les documents [instructions participants](INSTRUCTIONS-PARTICIPANTS-S18.md), [prompt maître](PROMPT-MAITRE-PRODUCTION-S18.md) et [méthode AGENT.md](AGENT.md) sont lisibles dans le carnet sans requête réseau. Le téléchargement `dist/supports/trio-production-S18.zip` les réunit. Le prompt personnalisé exporté demande leur utilisation et la production du dossier, du ZIP, de README.md, SOURCES.md et CONTROLE.md.
+
+Les quatre dossiers `dist/supports/exemples/` fournissent chacun un guide fictif enrichi, une affiche SVG originale adaptée au sujet, une fiche cible, les trois documents et un prompt prérempli. Les dimensions du catalogue et les projets du portfolio sont explicitement fictifs. Ces ZIP sont des entrées de production à donner à l’agent, pas des productions personnelles validées.
+
+`npm.cmd run build` régénère le carnet, les affiches, les copies des documents et les archives. Les sources éditables sont `src/workbook.js`, `src/production.js`, `src/content.js`, `src/exports.js`, `src/seance.json` et `tools/production-supports.mjs`. `src/generated/cases.json` est régénéré : modifier les sources, puis reconstruire. `public/` et `dist/` restent des copies de diffusion ; les dossiers séparés S17 et VS Code ne sont pas modifiés.
+
+Contrôles : `npm.cmd run check`. Les scripts `tools/check-s18-browser.mjs` et `tools/check-production-browser.mjs` effectuent les essais navigateur contre un navigateur de test isolé exposé localement sur le port 9331 ; ils ne démarrent pas ce navigateur. Les captures et rapports restent dans `tmp/qa/s18/`, hors Git.
+
+Les supports PDF/PPTX ci-dessous restent des supports complémentaires ; les trois Markdown et le carnet constituent les consignes de production actualisées.
 
 Challenge 100 Jours · Automne 2026 · Module 05 · LN-IA
 Prof. Abderrahman EL HISSE

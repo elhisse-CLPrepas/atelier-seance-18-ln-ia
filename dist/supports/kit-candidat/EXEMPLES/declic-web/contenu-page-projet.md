@@ -30,15 +30,20 @@ Voir une interaction et retrouver le fichier qui la produit.
 
 Libellé : Explorer les trois fichiers
 Cible : ../../03-CAS/fiche-web.html
-État de la cible : À fournir
+État de la cible : Disponible, à tester
 
 [Explorer les trois fichiers](../../03-CAS/fiche-web.html)
 
 ## Repères éditoriaux pour préparer S19
 
-Source S16, chemin et version : Démonstration S18 : Déclic Web ; support S17 HTML/CSS/JS
+Sources, fichiers et versions : entrees/guide-source.md ; entrees/affiche.svg ; entrees/fiche-web.html — dossier fictif Déclic Web
 
 > Le support propose une page locale : HTML organise le contenu, CSS règle la présentation et JavaScript affiche une explication. Aucun compte ni serveur n’est requis.
+> Le navigateur lit les fichiers et affiche la page. Commencer par ouvrir index.html, repérer les trois fichiers, puis faire une modification à la fois. Comparer avant et après. Le support ne traite ni serveur, ni API, ni mise en ligne automatique.
+> HTML : Repérer titre, paragraphes, image et lien dans index.html.
+> CSS : Changer une couleur dans css/styles.css et observer la présentation.
+> JavaScript : Déclencher un bouton qui affiche puis masque une explication.
+> Ce parcours est une initiation ; il ne promet pas la maîtrise complète du développement web.
 
 Appui de la promesse et du bénéfice : Le support propose une page locale : HTML organise le contenu, CSS règle la présentation et JavaScript affiche une explication. Aucun compte ni serveur n’est requis.
 

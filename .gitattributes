@@ -7,3 +7,12 @@
 *.docx binary
 *.pptx binary
 *.xlsx binary
+
+# Preserve the bytes used by the delivery/source SHA-256 manifests across clones.
+declic-web-sources-S18/** -text whitespace=cr-at-eol
+declic-web-sources-S18/**/*.zip binary
+public/livrables/** -text whitespace=cr-at-eol
+dist/livrables/** -text whitespace=cr-at-eol
+
+# Markdown hard breaks use two spaces; delivery manifests also preserve CRLF.
+*.md whitespace=cr-at-eol,-blank-at-eol

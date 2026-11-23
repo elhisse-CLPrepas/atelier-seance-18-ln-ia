@@ -30,15 +30,20 @@ Comparer les dimensions avant de préparer une question.
 
 Libellé : Consulter le catalogue
 Cible : ../../03-CAS/catalogue-ceramique.html
-État de la cible : À fournir
+État de la cible : Disponible, à tester
 
 [Consulter le catalogue](../../03-CAS/catalogue-ceramique.html)
 
 ## Repères éditoriaux pour préparer S19
 
-Source S16, chemin et version : Démonstration S18 : Atelier Terre Claire ; support S17 HTML/CSS/JS
+Sources, fichiers et versions : entrees/guide-source.md ; entrees/affiche.svg ; entrees/catalogue-ceramique.html — dossier fictif Atelier Terre Claire
 
 > Le catalogue fictif présente trois pièces en céramique : tasse, bol et vase. Les dimensions sont documentées ; prix et disponibilités restent à compléter. Aucun paiement ni commande ne sont proposés.
+> Le catalogue pédagogique décrit trois pièces fictives et leurs dimensions. Ces valeurs servent uniquement à entraîner la comparaison et la mise en page de fiches. La matière est présentée comme céramique ; aucune propriété alimentaire, certification ou méthode de fabrication spécifique ne doit être déduite.
+> Tasse — modèle fictif : Hauteur 8 cm ; diamètre 7 cm. Dimensions pédagogiques inventées.
+> Bol — modèle fictif : Hauteur 6 cm ; diamètre 14 cm. Dimensions pédagogiques inventées.
+> Vase — modèle fictif : Hauteur 20 cm ; diamètre 9 cm. Dimensions pédagogiques inventées.
+> Prix, stock, commande, paiement et livraison ne sont pas documentés.
 
 Appui de la promesse et du bénéfice : Le catalogue fictif présente trois pièces en céramique : tasse, bol et vase. Les dimensions sont documentées ; prix et disponibilités restent à compléter. Aucun paiement ni commande ne sont proposés.
 

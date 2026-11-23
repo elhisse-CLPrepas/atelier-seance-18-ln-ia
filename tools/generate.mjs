@@ -3,10 +3,12 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {renderSite,escapeHtml as e} from '../src/render.js';
 import {blankState,planText,proofText,indexText,relayText,exampleFields,miniSitePrompt} from '../src/exports.js';
+import {prepareProduction,finishProduction} from './production-supports.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 await import('./integrate-local.mjs');
 const data=JSON.parse(await fs.readFile(path.join(root,'src/seance.json'),'utf8'));
 data.affiches=JSON.parse(await fs.readFile(path.join(root,'src/affiches.json'),'utf8'));
+await prepareProduction(root,data);
 const config=JSON.parse(await fs.readFile(path.join(root,'site.config.json'),'utf8'));
 if(config.publicUrl){const url=new URL(config.publicUrl);if(url.protocol!=='https:'||url.search||url.hash)throw new Error('publicUrl doit être une URL HTTPS sans paramètres ni fragment.');}
 async function write(p,content){const target=path.join(root,p);await fs.mkdir(path.dirname(target),{recursive:true});await fs.writeFile(target,content)}
@@ -51,4 +53,5 @@ Les affiches originales sont copiées depuis la cible du raccourci AFFICHES ; le
 `);
 await write('public/robots.txt',config.publicUrl&&config.indexable?`User-agent: *\nAllow: /\nSitemap: ${config.publicUrl.replace(/\/?$/,'/')}sitemap.xml\n`:'User-agent: *\nDisallow: /\n');
 if(config.publicUrl&&config.indexable)await write('public/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${e(config.publicUrl.replace(/\/?$/,'/'))}</loc></url></urlset>`);else await fs.rm(path.join(root,'public/sitemap.xml'),{force:true});
-console.log('S18 : HTML, notes, conducteur, cas et modèles générés depuis src/seance.json.');
+await finishProduction(root,data);
+console.log('S18 : carnet, trio de production et dossiers sources illustrés générés.');
